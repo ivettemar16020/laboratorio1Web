@@ -1,1 +1,13 @@
-body{}
+body{
+    margin: 0px;
+}
+
+.header {
+    background: #29333d;
+    height: 80px;
+  }
+
+img {
+    padding-top: 20px;
+    padding-left: 50px;
+}
