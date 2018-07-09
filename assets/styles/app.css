@@ -9,16 +9,17 @@ div {
 */
 
 .header {
-    background: #29333d;
+    /*background: #29333d;*/
+    background: #00091a;
     display: flex;
     height: 80px;
     width: 100%;
   }
 
 .logo {
+    display: inline-block;
     padding-left: 50px;
     padding-top: 14px;
-    display: inline-block;
 }
 
 .name-logo{
@@ -75,11 +76,156 @@ hr{
     padding-top: 22px;
 }
 
-.signIn :hover{
+.signIn:hover{
     color: palegreen;
+}
+
+.content{
+    background: #29333d;
+    height: 650px;
+}
+
+.content1{
+    border-left: none;
+    border-top: none;
+    box-sizing: border-box;  
+    float: left;
+    padding-top: 120px;
+    padding-left: 70px;
+    width: 50%;
+}
+
+.learn1{
+    color: white;
+    display: inline-block;
+    font-family: 'Fira Sans';
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.learn2{
+    color: white;
+    display: inline-block;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.learn-btn{
+    background: blueviolet;
+    color: white;
+    display: inline-block;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    margin-top: 55px;
+    transition: 0.5s; /* Animation */
+}
+
+.learn-btn:hover{
+    transform: scale(1.1);
+}
+
+.content2{
+    height: 600px;
+    width: 50%;
+    float: left;
+    border-left: none;
+    box-sizing: border-box;  
+    border-top: none;
+    
+}
+
+.imgCt2{
+    margin-left: 40px;
+    margin-top: 250px;
+    transition: 0.2s;
+}
+
+.imgCt2:hover{
+    transform: scale(1.1);
+}
+
+.info1{
+    float: left;
+    height: 700px;
+    width: 50%;
+    background-color: #eae5dc;
+    float: left;
+    border-left: none;
+    box-sizing: border-box;  
+    border-top: none;
+}
+
+.info2{
+    height: 700px;
+    width: 50%;
+    background-color: #eae5dc;
+    float: left;
+    border-left: none;
+    box-sizing: border-box;  
+    border-top: none;
+    padding-top: 150px;
+    padding-left: 40px;
+}
+
+.info-img{
+    background: whitesmoke;
+    float: left;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    /*border-style: groove;*/
+    box-sizing: border-box;
+}
+
+.info-img2{
+    background: whitesmoke;
+    float: left;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    /*border-style: groove;*/
+    box-sizing: border-box;
+}
+
+.info-img:hover{
+    transform: scale(1.1);
+}
+
+.info-img2:hover{
+    transform: scale(1.1);
+}
+
+.imginf{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align:center;
+}
+
+.title2{
+    font-family: 'Fira Sans';
+    font-size: 50px;
+}
+
+.parag{
+    font-family: 'Fira Sans';
+    font-size: 20px;
 }
 
 .terms{
     color: black;
     margin-left: 15px;
+}
+
+.terms:hover{
+    color: blueviolet;
 }
